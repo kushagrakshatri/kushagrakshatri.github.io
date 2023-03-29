@@ -1,0 +1,57 @@
+/* custom.css */
+
+.bold {
+  font-weight: bold;
+}
+
+body {
+  font-family: 'Inconsolata', monospace;
+}
+
+.navbar.navbar-light.bg-light {
+    background-color: #333 !important;
+  }
+  
+.navbar.navbar-light .navbar-brand,
+.navbar.navbar-light .nav-link {
+    color: #fff !important;
+  }
+  
+.navbar.navbar-light .nav-link:hover {
+    color: #ccc !important;
+  }
+
+.about-section {
+    background-color: #f8f9fa;
+  }
+  
+.about-section h2 {
+    font-size: 36px;
+  }
+  
+.about-section h3 {
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+.projects-section {
+    background-color: #fff;
+  }
+  
+.projects-section h2 {
+    font-size: 36px;
+  }
+  
+.projects-section .card-title {
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+.projects-section .btn {
+    font-size: 18px;
+  }
+
+
+
+  
+  
