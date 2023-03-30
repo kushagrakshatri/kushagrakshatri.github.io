@@ -1,0 +1,74 @@
+/* custom.css */
+
+body {
+  font-family: 'Inconsolata', monospace;
+}
+
+.navbar.navbar-light.bg-light {
+    background-color: #333 !important;
+  }
+  
+.navbar.navbar-light .navbar-brand,
+.navbar.navbar-light .nav-link {
+    color: #fff !important;
+  }
+  
+.navbar.navbar-light .nav-link:hover {
+    color: #ccc !important;
+  }
+
+.about-section {
+    background-color: #f8f9fa;
+  }
+  
+.about-section h2 {
+    font-size: 36px;
+  }
+  
+.about-section h3 {
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+.projects-section {
+    background-color: #fff;
+  }
+  
+.projects-section h2 {
+    font-size: 36px;
+  }
+  
+.projects-section .card-title {
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+.projects-section .btn {
+    font-size: 18px;
+  }
+
+/* custom.css */
+
+/* Change the color of the navigation expander (hamburger menu) */
+.navbar-toggler {
+  border-color: #fff;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* custom.css */
+
+/* Add space between the 'Send Message' button and 'Connect with me' label on small screens */
+@media (max-width: 991.98px) {
+  #contact .connect {
+    margin-top: 1.5rem;
+  }
+}
+
+
+
+
+  
+  
