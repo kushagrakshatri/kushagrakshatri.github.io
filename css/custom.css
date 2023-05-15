@@ -1,0 +1,75 @@
+/* custom.css */
+
+html, body {
+  height: 100%;
+  background-color: #212529; 
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', serif;
+}
+
+.navbar{
+  background-color: blue;
+}
+  
+.nav-link:hover{
+    color: #212529;
+}
+
+.about-section{
+  background-color: black;
+}
+
+.profile-image {
+  width: 300px; 
+  height: 300px; 
+  object-fit: cover;
+}
+
+.social-links li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.social-links .icon {
+  margin-right: 10px;
+  color: #ffffff; 
+}
+
+.social-links a {
+  color: #ffffff;
+}
+
+.social-links a:hover {
+  color: #bbbbbb; 
+}
+
+.text{
+  color: white;
+}
+
+.projects-section {
+    background-color: black;
+}
+
+.contact-section{
+  background-color: #333;
+}
+
+.navbar-toggler {
+  border-color: black;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+@media (max-width: 991.98px) {
+  #contact .connect {
+    margin-top: 1.5rem;
+  }
+}
